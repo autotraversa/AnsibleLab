@@ -1,0 +1,7 @@
+---
+- name: Test
+  hosts: aosswitch
+  tasks:
+    - name: show ver
+      arubaoss_command:
+        commands: show ver
