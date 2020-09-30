@@ -1,6 +1,7 @@
 ---
-- hosts: 2930mnchcl1
+- name: Test
+  hosts: iosswitch
   tasks:
-  - name: show ver
-    arubaoss_command:
-      commands: show ver
+    - name: show ver
+      ios_command:
+        commands: show ver
