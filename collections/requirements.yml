@@ -1,0 +1,5 @@
+---
+# install collections required
+collections:
+  - name: arubanetworks.aos_switch
+    source: https://galaxy.ansible.com
