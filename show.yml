@@ -4,4 +4,4 @@
   tasks:
     - name: show ver
       ios_command:
-        commands: show ver
+        commands: show arp
