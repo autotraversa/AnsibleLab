@@ -1,7 +1,5 @@
 ---
 # default connectivity variables
-ansible_user: "admin"
-ansible_ssh_pass: "cisco"
 
 CSR1K:
   CSR1K_01:
