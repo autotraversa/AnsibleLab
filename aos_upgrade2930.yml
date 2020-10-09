@@ -8,7 +8,8 @@
       commands: 
         - copy tftp flash 10.210.210.251 WC_16_08_0015.swi primary
         - y
-      timeout: 120
+    vars:
+      ansible_command_timeout: 60
   - name: copy flash flash secondary
     arubaoss_command:
       commands: copy flash flash secondary
