@@ -10,11 +10,5 @@
         - y
     vars:
       ansible_command_timeout: 60
-  - name: copy flash flash secondary
-    arubaoss_command:
-      commands: copy flash flash secondary
-  - name: boot
-    arubaoss_reboot:
-      boot_image: BI_PRIMARY_IMAGE
-      is_wait: False
+
       
