@@ -1,6 +1,6 @@
 ---
 - name: Test
-  hosts: aosswitch
+  hosts: aos_switch
   collections:
     - arubanetworks.aos_switch
   tasks:
