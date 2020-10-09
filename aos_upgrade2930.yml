@@ -1,5 +1,5 @@
 ---
-- hosts: 2930fsb5scata
+- hosts: aos_switch
   collections:
     - arubanetworks.aos_switch
   tasks:
