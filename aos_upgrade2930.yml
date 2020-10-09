@@ -6,7 +6,7 @@
   - name: upload image
     arubaoss_command:
       commands: 
-        - copy tftp flash 10.210.210.251 WC_16_08_0014.swi primary
+        - copy tftp flash 10.210.210.251 WC_16_08_0015.swi primary
         - y
       timeout: 120
   - name: copy flash flash secondary
