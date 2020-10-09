@@ -2,7 +2,7 @@
 - name: Config Vlans
   hosts: aos_switch
   tasks:
-  - name: config vlan 2
-    arubaoss_vlan:
-      vlan_id: 2
-      name: COSC
+    - name: config vlan 2
+      arubaoss_vlan:
+        vlan_id: 2
+        name: test

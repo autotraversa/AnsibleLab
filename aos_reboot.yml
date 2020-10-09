@@ -2,7 +2,7 @@
 - name: Reboot
   hosts: aos_switch
   tasks:
-  - name: Reboot
-    arubaoss_reboot:
-      boot_image: BI_PRIMARY_IMAGE
-      is_wait: False
+    - name: Reboot
+      arubaoss_reboot:
+        boot_image: BI_PRIMARY_IMAGE
+        is_wait: False
