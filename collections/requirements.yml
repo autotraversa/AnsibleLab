@@ -3,3 +3,5 @@
 collections:
   - name: arubanetworks.aos_switch
     source: https://galaxy.ansible.com
+  - name: arubanetworks.aoscx
+    source: https://galaxy.ansible.com
