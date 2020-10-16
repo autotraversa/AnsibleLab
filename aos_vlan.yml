@@ -1,5 +1,5 @@
 ---
-- hosts: aos_switch
+- hosts: acx_switch
   tasks:
   - name: config vlan 2
     arubaoss_vlan:
