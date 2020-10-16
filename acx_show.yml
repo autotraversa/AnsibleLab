@@ -1,6 +1,8 @@
 ---
 - name: show
   hosts: acx_switch
+  collections:
+    - arubanetworks.aoscx
   tasks:
     - name: Check version
       aoscx_command:
