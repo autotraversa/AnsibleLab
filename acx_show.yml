@@ -1,0 +1,7 @@
+---
+- name: show
+  hosts: acx_switch
+  tasks:
+    - name: Check version
+      aoscx_command:
+        commands: 'show ver'
