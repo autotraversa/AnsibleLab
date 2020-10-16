@@ -8,5 +8,4 @@
       aoscx_vlan:
         vlan_id: 2
         name: test vlan
-        description: This is Vlan 2
-        state: create
+
