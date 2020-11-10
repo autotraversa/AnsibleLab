@@ -2,4 +2,3 @@
 - name:  Generate CFG
   template: src=specific.j2 dest=/var/lib/awx/projects/_8__lab/config/{{item.hostname}}.cfg
     with_items: "{{ csrs }}"
-    
