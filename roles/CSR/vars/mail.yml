@@ -1,0 +1,10 @@
+---
+csrs:
+  - hostname: CSR_01
+    loopback0: 1.1.1.1 255.255.255.255
+
+  - hostname: CSR_02
+    loopback0: 2.2.2.2 255.255.255.255
+
+  - hostname: CSR_03
+    loopback0: 3.3.3.3 255.255.255.255

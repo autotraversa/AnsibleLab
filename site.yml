@@ -1,0 +1,7 @@
+
+---
+- name:  Generate CFG
+  hosts: localhost
+
+  roles:
+    - CSR
