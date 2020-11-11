@@ -4,4 +4,4 @@
   tasks:
   - name: Config from Jinja2
     ios_config:
-      src: "./CSR.j2"
+      src: "./ios_cfg.j2"
