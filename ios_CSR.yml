@@ -1,5 +1,5 @@
 ---
-- hosts: CSR1K
+- host: ios_router
   gather_facts: False
   tasks:
   - name: Config from Jinja2
