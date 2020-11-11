@@ -1,0 +1,20 @@
+- name: csv_test_1
+  hosts: localhost
+  tasks:
+  - name: Path to CSV, delimeter $, register to object users, localhost
+    community.general.read_csv:
+      path: jinja2_variables.csv
+      delimiter: $
+    register: users
+    delegate_to: localhost
+
+#  - name: Creating Loop
+#    ansible.builtin.debug:
+#      msg: "Testing {{ item.hostname }}"
+#    loop: "{{ users.list }}"
+
+  - name: Jinja Template
+    template:
+      src: jinja_testing.j2
+      dest: "{{ item.hostname }}.txt"
+    loop: "{{ users.list }}"
