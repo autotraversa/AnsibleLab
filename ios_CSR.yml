@@ -4,4 +4,4 @@
   tasks:
   - name: Config from Jinja2
     ios_config:
-      src: "/home/traversa/automation/CSR.j2"
+      src: "./CSR.j2"
